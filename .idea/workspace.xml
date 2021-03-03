@@ -6,18 +6,29 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561c3335-fd7c-48cc-a84c-f5e3e4402a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/bookmark/BookmarkViewModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" afterDir="false" />
+    <list default="true" id="561c3335-fd7c-48cc-a84c-f5e3e4402a78" name="Default Changelist" comment="add i testing semua viewmodel">
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ui/home/HomeActivityTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ExampleUnitTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +79,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.iman.academy.ui.home" />
       <recent name="com.iman.academy.ui.detail" />
       <recent name="com.iman.academy.ui.bookmark" />
       <recent name="com.iman.academy.ui.academy" />
@@ -80,7 +92,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.CourseReaderViewModelTest">
+  <component name="RunManager" selected="Android Instrumented Tests.HomeActivityTest">
     <configuration name="AcademyViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academy.app" />
       <extension name="coverage">
@@ -209,8 +221,60 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeActivityTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.iman.academy.ui.home.HomeActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.HomeActivityTest" />
         <item itemvalue="Android JUnit.CourseReaderViewModelTest" />
         <item itemvalue="Android JUnit.DetailCourseViewModelTest" />
         <item itemvalue="Android JUnit.BookmarkViewModelTest" />
@@ -243,59 +307,67 @@
       <option name="project" value="LOCAL" />
       <updated>1614736001752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add unit testing semua viewmodel">
+      <created>1614736648595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614736648595</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="add bookmarkviewmodel" />
     <MESSAGE value="add bookmarkviewmodel, detailcourseviewmodel&#10;edit modulecontent, modulelist, coursereaderactivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bookmarkviewmodel, detailcourseviewmodel&#10;edit modulecontent, modulelist, coursereaderactivity" />
+    <MESSAGE value="add unit testing semua viewmodel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit testing semua viewmodel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="117" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614736478201">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="117" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614736478201" />
-    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1614736000984">
+    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1614737239417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736000984" />
-    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1614736398259">
+    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614737239417" />
+    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1614737187782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614736398259" />
-    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1614736398259">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
+    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1614737187782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614736398259" />
-    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1614736398258">
+    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
+    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1614737187782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614736398258" />
-    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1614736398259">
+    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
+    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1614737187782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614736398259" />
+    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
     <state x="67" y="282" key="IDE.errors.dialog" timestamp="1614733981346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="67" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614733981346" />
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1614736089831">
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1614736656759">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736089831" />
-    <state x="303" y="317" key="chooseDestDirectoryDialog" timestamp="1614736497779">
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736656759" />
+    <state x="303" y="317" key="chooseDestDirectoryDialog" timestamp="1614737059831">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="303" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614736497779" />
+    <state x="303" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614737059831" />
     <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614736038802">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736038802" />
-    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614736497791">
+    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614737059849">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614736497791" />
+    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614737059849" />
   </component>
 </project>
