@@ -6,36 +6,22 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561c3335-fd7c-48cc-a84c-f5e3e4402a78" name="Default Changelist" comment="add i testing semua viewmodel">
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ui/home/HomeActivityTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+    <list default="true" id="561c3335-fd7c-48cc-a84c-f5e3e4402a78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ExampleUnitTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_30]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -80,6 +66,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -92,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.HomeActivityTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="AcademyViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academy.app" />
       <extension name="coverage">
@@ -314,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614736648595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Instrumental testing semua viewmodel">
+      <created>1614737266735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614737266735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,49 +316,58 @@
     <MESSAGE value="add bookmarkviewmodel" />
     <MESSAGE value="add bookmarkviewmodel, detailcourseviewmodel&#10;edit modulecontent, modulelist, coursereaderactivity" />
     <MESSAGE value="add unit testing semua viewmodel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unit testing semua viewmodel" />
+    <MESSAGE value="add Instrumental testing semua viewmodel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Instrumental testing semua viewmodel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="117" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614736478201">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="117" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614736478201" />
-    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1614737239417">
+    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614883067615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614737239417" />
-    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1614737187782">
+    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614883067615" />
+    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1614737265875">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
-    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1614737187782">
+    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614737265875" />
+    <state x="267" y="294" key="FileChooserDialogImpl" timestamp="1614790962391">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
-    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1614737187782">
+    <state x="267" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1614790962391" />
+    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1614825441707">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
-    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1614737187782">
+    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
+    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1614825441707">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614737187782" />
+    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
+    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1614825441707">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
+    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1614825441707">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
     <state x="67" y="282" key="IDE.errors.dialog" timestamp="1614733981346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="67" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614733981346" />
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1614736656759">
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1614737275740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736656759" />
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614737275740" />
     <state x="303" y="317" key="chooseDestDirectoryDialog" timestamp="1614737059831">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614737059831" />
-    <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614736038802">
+    <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614958151399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614736038802" />
+    <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614958151399" />
     <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614737059849">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
