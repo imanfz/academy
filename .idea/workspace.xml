@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561c3335-fd7c-48cc-a84c-f5e3e4402a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/AcademyDataSource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/AcademyRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/RemoteDataSource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ContentResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/CourseResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ModuleResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/di/Injection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/JsonHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/viewmodel/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/AcademyRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/FakeAcademyRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,23 +17,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/CourseReaderViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/CourseReaderViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/bookmark/BookmarkViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/bookmark/BookmarkViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -95,11 +86,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/iman/academy" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.iman.academy.data.source" />
       <recent name="com.iman.academy.ui.home" />
       <recent name="com.iman.academy.ui.detail" />
       <recent name="com.iman.academy.ui.bookmark" />
@@ -108,6 +100,10 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.iman.academy" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.iman.academy.data.source" />
+      <recent name="com.iman.academy.data" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -115,7 +111,23 @@
       <recent name="D:\Kursus Dicoding\DepedencyInjection\Academy\app\src\main\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit.AcademyRepositoryTest">
+    <configuration name="AcademyRepositoryTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iman.academy.data.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iman.academy.data.source" />
+      <option name="MAIN_CLASS_NAME" value="com.iman.academy.data.source.AcademyRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AcademyViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academy.app" />
       <extension name="coverage">
@@ -126,22 +138,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.iman.academy.ui.academy" />
       <option name="MAIN_CLASS_NAME" value="com.iman.academy.ui.academy.AcademyViewModelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookmarkViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Academy.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iman.academy.ui.bookmark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.iman.academy.ui.bookmark" />
-      <option name="MAIN_CLASS_NAME" value="com.iman.academy.ui.bookmark.BookmarkViewModelTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -164,25 +160,18 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetailCourseViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Academy.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iman.academy.ui.detail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.iman.academy.ui.detail" />
-      <option name="MAIN_CLASS_NAME" value="com.iman.academy.ui.detail.DetailCourseViewModelTest" />
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="com in Academy.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TEST_OBJECT" value="directory" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -297,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.AcademyRepositoryTest" />
+        <item itemvalue="Android JUnit.com in Academy.app" />
+        <item itemvalue="Android JUnit.AcademyViewModelTest" />
         <item itemvalue="Android Instrumented Tests.HomeActivityTest" />
         <item itemvalue="Android JUnit.CourseReaderViewModelTest" />
-        <item itemvalue="Android JUnit.DetailCourseViewModelTest" />
-        <item itemvalue="Android JUnit.BookmarkViewModelTest" />
-        <item itemvalue="Android JUnit.AcademyViewModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615027025048</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add method offline/online with repository and depedency injection">
+      <created>1615059623202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615059623202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -361,13 +357,18 @@
     <MESSAGE value="add unit testing semua viewmodel" />
     <MESSAGE value="add Instrumental testing semua viewmodel" />
     <MESSAGE value="add json asset" />
-    <option name="LAST_COMMIT_MESSAGE" value="add json asset" />
+    <MESSAGE value="add method offline/online with repository and depedency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method offline/online with repository and depedency injection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="271" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1615055623787">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="271" y="255" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1615055623787" />
+    <state x="1170" y="316" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1615060668273">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1170" y="316" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615060668273" />
     <state x="117" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615056660328">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -376,53 +377,53 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="276" y="421" width="499" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1080@0.0.1920.1080" timestamp="1615056666442" />
-    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614883067615">
+    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1615060672889">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614883067615" />
-    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1615027024477">
+    <state x="1219" y="331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615060672889" />
+    <state x="611" y="131" key="CommitChangelistDialog2" timestamp="1615059622440">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1615027024477" />
+    <state x="611" y="131" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1615059622440" />
     <state x="267" y="294" key="FileChooserDialogImpl" timestamp="1614790962391">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="267" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1614790962391" />
-    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1614825441707">
+    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1615061510548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
-    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1614825441707">
+    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615061510548" />
+    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1615061510548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
-    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1614825441707">
+    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615061510548" />
+    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1615061510548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
-    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1614825441707">
+    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615061510548" />
+    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1615061510548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614825441707" />
-    <state x="67" y="282" key="IDE.errors.dialog" timestamp="1614733981346">
+    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615061510548" />
+    <state x="67" y="282" key="IDE.errors.dialog" timestamp="1615059643456">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="67" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614733981346" />
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1615027087658">
+    <state x="67" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615059643456" />
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2" timestamp="1615059632685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1615027087658" />
-    <state x="303" y="317" key="chooseDestDirectoryDialog" timestamp="1614737059831">
+    <state x="79" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1615059632685" />
+    <state x="303" y="317" key="chooseDestDirectoryDialog" timestamp="1615060789640">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="303" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614737059831" />
+    <state x="303" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615060789640" />
     <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614958151399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="296" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614958151399" />
-    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614737059849">
+    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1615060789657">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614737059849" />
+    <state x="258" y="361" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615060789657" />
   </component>
 </project>
