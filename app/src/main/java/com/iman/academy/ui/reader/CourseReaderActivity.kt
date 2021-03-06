@@ -7,6 +7,7 @@ import com.iman.academy.R
 import com.iman.academy.ui.detail.CourseReaderViewModel
 import com.iman.academy.ui.reader.content.ModuleContentFragment
 import com.iman.academy.ui.reader.list.ModuleListFragment
+import com.iman.academy.viewmodel.ViewModelFactory
 
 class CourseReaderActivity : AppCompatActivity(), CourseReaderCallback {
 
@@ -18,7 +19,10 @@ class CourseReaderActivity : AppCompatActivity(), CourseReaderCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_course_reader)
 
-        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
+//        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
+
+        val factory = ViewModelFactory.getInstance(this)
+        val viewModel = ViewModelProvider(this, factory)[CourseReaderViewModel::class.java]
 
         val bundle = intent.extras
         if (bundle != null) {

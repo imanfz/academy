@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.iman.academy.data.ModuleEntity
 import com.iman.academy.databinding.FragmentModuleContentBinding
 import com.iman.academy.ui.detail.CourseReaderViewModel
+import com.iman.academy.viewmodel.ViewModelFactory
 
 class ModuleContentFragment : Fragment() {
 
@@ -30,7 +31,10 @@ class ModuleContentFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (activity != null) {
-            val viewModel = ViewModelProvider(requireActivity(), ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
+//            val viewModel = ViewModelProvider(requireActivity(), ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
+
+            val factory = ViewModelFactory.getInstance(requireActivity())
+            val viewModel = ViewModelProvider(requireActivity(), factory)[CourseReaderViewModel::class.java]
             val module = viewModel.getSelectedModule()
             populateWebView(module)
         }

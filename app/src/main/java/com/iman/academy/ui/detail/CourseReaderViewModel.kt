@@ -1,10 +1,10 @@
 package com.iman.academy.ui.detail
 
 import androidx.lifecycle.ViewModel
-import com.iman.academy.data.ContentEntity
 import com.iman.academy.data.ModuleEntity
-import com.iman.academy.utils.DataDummy
+import com.iman.academy.data.source.AcademyRepository
 
+/*
 class CourseReaderViewModel : ViewModel() {
 
     private lateinit var courseId: String
@@ -32,4 +32,23 @@ class CourseReaderViewModel : ViewModel() {
         }
         return module
     }
+}*/
+
+
+class CourseReaderViewModel(private val academyRepository: AcademyRepository) : ViewModel() {
+
+    private lateinit var courseId: String
+    private lateinit var moduleId: String
+
+    fun setSelectedCourse(courseId: String) {
+        this.courseId = courseId
+    }
+
+    fun setSelectedModule(moduleId: String) {
+        this.moduleId = moduleId
+    }
+
+    fun getModules(): ArrayList<ModuleEntity> = academyRepository.getAllModulesByCourse(courseId)
+
+    fun getSelectedModule(): ModuleEntity = academyRepository.getContent(courseId, moduleId)
 }

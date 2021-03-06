@@ -14,6 +14,7 @@ import com.iman.academy.data.CourseEntity
 import com.iman.academy.databinding.ActivityDetailCourseBinding
 import com.iman.academy.databinding.ContentDetailCourseBinding
 import com.iman.academy.ui.reader.CourseReaderActivity
+import com.iman.academy.viewmodel.ViewModelFactory
 
 class DetailCourseActivity : AppCompatActivity() {
 
@@ -36,7 +37,10 @@ class DetailCourseActivity : AppCompatActivity() {
 
         val adapter = DetailCourseAdapter()
 
-        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[DetailCourseViewModel::class.java]
+//        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[DetailCourseViewModel::class.java]
+
+        val factory = ViewModelFactory.getInstance(this)
+        val viewModel = ViewModelProvider(this, factory)[DetailCourseViewModel::class.java]
 
         val extras = intent.extras
         if (extras != null) {
