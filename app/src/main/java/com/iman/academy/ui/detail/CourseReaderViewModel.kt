@@ -1,5 +1,6 @@
 package com.iman.academy.ui.detail
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.iman.academy.data.ModuleEntity
 import com.iman.academy.data.source.AcademyRepository
@@ -48,7 +49,14 @@ class CourseReaderViewModel(private val academyRepository: AcademyRepository) : 
         this.moduleId = moduleId
     }
 
+    /*tanpa livedata
     fun getModules(): ArrayList<ModuleEntity> = academyRepository.getAllModulesByCourse(courseId)
 
-    fun getSelectedModule(): ModuleEntity = academyRepository.getContent(courseId, moduleId)
+    fun getSelectedModule(): ModuleEntity = academyRepository.getContent(courseId, moduleId)*/
+
+    fun getModules(): LiveData<List<ModuleEntity>> =
+            academyRepository.getAllModulesByCourse(courseId)
+
+    fun getSelectedModule(): LiveData<ModuleEntity> =
+            academyRepository.getContent(courseId, moduleId)
 }

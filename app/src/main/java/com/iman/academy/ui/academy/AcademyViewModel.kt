@@ -1,5 +1,6 @@
 package com.iman.academy.ui.academy
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.iman.academy.data.CourseEntity
 import com.iman.academy.data.source.AcademyRepository
@@ -13,6 +14,8 @@ class AcademyViewModel : ViewModel() {
 
 class AcademyViewModel(private val academyRepository: AcademyRepository) : ViewModel() {
 
-    fun getCourses(): List<CourseEntity> = academyRepository.getAllCourses()
+    /*tanpa livedata
+    fun getCourses(): List<CourseEntity> = academyRepository.getAllCourses()*/
 
+    fun getCourses(): LiveData<List<CourseEntity>> = academyRepository.getAllCourses()
 }
