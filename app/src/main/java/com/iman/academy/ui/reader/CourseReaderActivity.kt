@@ -1,10 +1,9 @@
 package com.iman.academy.ui.reader
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.iman.academy.R
-import com.iman.academy.ui.detail.CourseReaderViewModel
 import com.iman.academy.ui.reader.content.ModuleContentFragment
 import com.iman.academy.ui.reader.list.ModuleListFragment
 import com.iman.academy.viewmodel.ViewModelFactory
@@ -18,9 +17,6 @@ class CourseReaderActivity : AppCompatActivity(), CourseReaderCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_course_reader)
-
-//        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
-
         val factory = ViewModelFactory.getInstance(this)
         val viewModel = ViewModelProvider(this, factory)[CourseReaderViewModel::class.java]
 
@@ -37,8 +33,8 @@ class CourseReaderActivity : AppCompatActivity(), CourseReaderCallback {
     override fun moveTo(position: Int, moduleId: String) {
         val fragment = ModuleContentFragment.newInstance()
         supportFragmentManager.beginTransaction().add(R.id.frame_container, fragment, ModuleContentFragment.TAG)
-            .addToBackStack(null)
-            .commit()
+                .addToBackStack(null)
+                .commit()
     }
 
     override fun onBackPressed() {

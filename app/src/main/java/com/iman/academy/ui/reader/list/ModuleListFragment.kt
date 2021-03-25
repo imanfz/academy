@@ -9,17 +9,18 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.iman.academy.data.ModuleEntity
+import com.iman.academy.data.source.local.entity.ModuleEntity
 import com.iman.academy.databinding.FragmentModuleListBinding
-import com.iman.academy.ui.detail.CourseReaderViewModel
 import com.iman.academy.ui.reader.CourseReaderActivity
 import com.iman.academy.ui.reader.CourseReaderCallback
-import com.iman.academy.utils.DataDummy
+import com.iman.academy.ui.reader.CourseReaderViewModel
 import com.iman.academy.viewmodel.ViewModelFactory
 
-class ModuleListFragment : Fragment(), MyAdapterClickListener {
+/**
+ * A simple [Fragment] subclass.
+ */
 
-    private lateinit var viewModel: CourseReaderViewModel
+class ModuleListFragment : Fragment(), MyAdapterClickListener {
 
     companion object {
         val TAG: String = ModuleListFragment::class.java.simpleName
@@ -30,6 +31,7 @@ class ModuleListFragment : Fragment(), MyAdapterClickListener {
     private lateinit var fragmentModuleListBinding: FragmentModuleListBinding
     private lateinit var adapter: ModuleListAdapter
     private lateinit var courseReaderCallback: CourseReaderCallback
+    private lateinit var viewModel: CourseReaderViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
@@ -40,26 +42,15 @@ class ModuleListFragment : Fragment(), MyAdapterClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-//        viewModel = ViewModelProvider(requireActivity(), ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
-
         val factory = ViewModelFactory.getInstance(requireActivity())
         viewModel = ViewModelProvider(requireActivity(), factory)[CourseReaderViewModel::class.java]
         adapter = ModuleListAdapter(this)
-        /*tanpa livedata
-        populateRecyclerView(viewModel.getModules())*/
 
         fragmentModuleListBinding.progressBar.visibility = View.VISIBLE
         viewModel.getModules().observe(viewLifecycleOwner, { modules ->
             fragmentModuleListBinding.progressBar.visibility = View.GONE
             populateRecyclerView(modules)
         })
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        adapter = ModuleListAdapter(this)
-        populateRecyclerView(DataDummy.generateDummyModules("a14"))
     }
 
     override fun onAttach(context: Context) {

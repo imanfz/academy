@@ -2,9 +2,10 @@ package com.iman.academy.data.source
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.iman.academy.data.ContentEntity
-import com.iman.academy.data.CourseEntity
-import com.iman.academy.data.ModuleEntity
+import com.iman.academy.data.AcademyDataSource
+import com.iman.academy.data.source.local.entity.ContentEntity
+import com.iman.academy.data.source.local.entity.CourseEntity
+import com.iman.academy.data.source.local.entity.ModuleEntity
 import com.iman.academy.data.source.remote.RemoteDataSource
 import com.iman.academy.data.source.remote.response.ContentResponse
 import com.iman.academy.data.source.remote.response.CourseResponse

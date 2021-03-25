@@ -6,11 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.iman.academy.data.ModuleEntity
+import com.iman.academy.data.source.local.entity.ModuleEntity
 import com.iman.academy.databinding.FragmentModuleContentBinding
-import com.iman.academy.ui.detail.CourseReaderViewModel
+import com.iman.academy.ui.reader.CourseReaderViewModel
 import com.iman.academy.viewmodel.ViewModelFactory
 
+/**
+ * A simple [Fragment] subclass.
+ */
 class ModuleContentFragment : Fragment() {
 
     companion object {
@@ -29,19 +32,13 @@ class ModuleContentFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         if (activity != null) {
-//            val viewModel = ViewModelProvider(requireActivity(), ViewModelProvider.NewInstanceFactory())[CourseReaderViewModel::class.java]
-
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(requireActivity(), factory)[CourseReaderViewModel::class.java]
-            /*tanpa livedata
-            val module = viewModel.getSelectedModule()
-            populateWebView(module)*/
 
-            //fragmentModuleContentBinding.progressBar.visibility = View.VISIBLE
+            fragmentModuleContentBinding.progressBar.visibility = View.VISIBLE
             viewModel.getSelectedModule().observe(viewLifecycleOwner, { module ->
-                //fragmentModuleContentBinding.progressBar.visibility = View.GONE
+                fragmentModuleContentBinding.progressBar.visibility = View.GONE
                 if (module != null) {
                     populateWebView(module)
                 }
@@ -50,6 +47,8 @@ class ModuleContentFragment : Fragment() {
     }
 
     private fun populateWebView(module: ModuleEntity) {
-        fragmentModuleContentBinding.webView.loadData(module.contentEntity?.content ?: "", "text/html", "UTF-8")
+        fragmentModuleContentBinding.webView.loadData(
+            module.contentEntity?.content
+                ?: "", "text/html", "UTF-8")
     }
 }

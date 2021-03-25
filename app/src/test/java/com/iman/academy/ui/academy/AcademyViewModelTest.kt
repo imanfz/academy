@@ -3,8 +3,8 @@ package com.iman.academy.ui.academy
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.iman.academy.data.CourseEntity
-import com.iman.academy.data.source.AcademyRepository
+import com.iman.academy.data.source.local.entity.CourseEntity
+import com.iman.academy.data.AcademyRepository
 import com.iman.academy.utils.DataDummy
 import org.junit.Test
 

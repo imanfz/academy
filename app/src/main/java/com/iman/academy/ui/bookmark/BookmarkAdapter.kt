@@ -7,9 +7,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.iman.academy.R
-import com.iman.academy.data.CourseEntity
+import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.databinding.ItemsBookmarkBinding
 import com.iman.academy.ui.detail.DetailCourseActivity
+import java.util.*
 
 class BookmarkAdapter(private val callback: BookmarkFragmentCallback) : RecyclerView.Adapter<BookmarkAdapter.CourseViewHolder>() {
     private val listCourses = ArrayList<CourseEntity>()
@@ -18,6 +19,8 @@ class BookmarkAdapter(private val callback: BookmarkFragmentCallback) : Recycler
         if (courses == null) return
         this.listCourses.clear()
         this.listCourses.addAll(courses)
+
+        this.notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CourseViewHolder {
@@ -44,11 +47,10 @@ class BookmarkAdapter(private val callback: BookmarkFragmentCallback) : Recycler
                 }
                 imgShare.setOnClickListener { callback.onShareClick(course) }
                 Glide.with(itemView.context)
-                    .load(course.imagePath)
-                    .apply(
-                        RequestOptions.placeholderOf(R.drawable.ic_loading)
-                        .error(R.drawable.ic_error))
-                    .into(imgPoster)
+                        .load(course.imagePath)
+                        .apply(RequestOptions.placeholderOf(R.drawable.ic_loading)
+                                .error(R.drawable.ic_error))
+                        .into(imgPoster)
             }
         }
     }

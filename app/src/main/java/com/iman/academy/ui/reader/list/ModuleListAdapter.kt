@@ -3,8 +3,9 @@ package com.iman.academy.ui.reader.list
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.iman.academy.data.ModuleEntity
+import com.iman.academy.data.source.local.entity.ModuleEntity
 import com.iman.academy.databinding.ItemsModuleListCustomBinding
+import java.util.*
 
 class ModuleListAdapter internal constructor(private val listener: MyAdapterClickListener) : RecyclerView.Adapter<ModuleListAdapter.ModuleViewHolder>() {
     private val listModules = ArrayList<ModuleEntity>()

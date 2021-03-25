@@ -11,7 +11,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.iman.academy.R
-import com.iman.academy.data.CourseEntity
+import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.databinding.ActivityDetailCourseBinding
 import com.iman.academy.databinding.ContentDetailCourseBinding
 import com.iman.academy.ui.reader.CourseReaderActivity
@@ -38,8 +38,6 @@ class DetailCourseActivity : AppCompatActivity() {
 
         val adapter = DetailCourseAdapter()
 
-//        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[DetailCourseViewModel::class.java]
-
         val factory = ViewModelFactory.getInstance(this)
         val viewModel = ViewModelProvider(this, factory)[DetailCourseViewModel::class.java]
 
@@ -47,18 +45,14 @@ class DetailCourseActivity : AppCompatActivity() {
         if (extras != null) {
             val courseId = extras.getString(EXTRA_COURSE)
             if (courseId != null) {
-                viewModel.setSelectedCourse(courseId)
-                //val modules = viewModel.getModules()
-                /*tanpa livedata
-                adapter.setModules(modules)
-                populateCourse(viewModel.getCourse())*/
-
                 activityDetailCourseBinding.progressBar.visibility = View.VISIBLE
-                activityDetailCourseBinding.detailContent.root.visibility = View.INVISIBLE
+                activityDetailCourseBinding.content.visibility = View.INVISIBLE
+
                 viewModel.setSelectedCourse(courseId)
                 viewModel.getModules().observe(this, { modules ->
                     activityDetailCourseBinding.progressBar.visibility = View.GONE
-                    activityDetailCourseBinding.detailContent.root.visibility = View.VISIBLE
+                    activityDetailCourseBinding.content.visibility = View.VISIBLE
+
                     adapter.setModules(modules)
                     adapter.notifyDataSetChanged()
                 })
@@ -83,12 +77,11 @@ class DetailCourseActivity : AppCompatActivity() {
         detailContentBinding.textDate.text = resources.getString(R.string.deadline_date, courseEntity.deadline)
 
         Glide.with(this)
-            .load(courseEntity.imagePath)
-            .transform(RoundedCorners(20))
-            .apply(
-                RequestOptions.placeholderOf(R.drawable.ic_loading)
-                .error(R.drawable.ic_error))
-            .into(detailContentBinding.imagePoster)
+                .load(courseEntity.imagePath)
+                .transform(RoundedCorners(20))
+                .apply(RequestOptions.placeholderOf(R.drawable.ic_loading)
+                        .error(R.drawable.ic_error))
+                .into(detailContentBinding.imagePoster)
 
         detailContentBinding.btnStart.setOnClickListener {
             val intent = Intent(this@DetailCourseActivity, CourseReaderActivity::class.java)

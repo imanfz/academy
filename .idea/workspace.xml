@@ -6,15 +6,203 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe5a976-2d90-4508-a62b-785ff1639cca" name="Default Changelist" comment="">
+    <list default="true" id="dfe5a976-2d90-4508-a62b-785ff1639cca" name="Default Changelist" comment="rebuild/update">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/EspressoIdlingResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_module_list_custom_disable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_1_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_rules_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_rules_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_wear_wear_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_12_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_12_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_12_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_12_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_wearable_wearable_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ui/home/HomeActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/iman/academy/ui/home/HomeActivityTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m2.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m3.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m5.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m6.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a14m7.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a14m7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m2.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m3.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m5.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m6.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a47m7.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a47m7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m2.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m3.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m5.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m6.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a51m7.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a51m7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m2.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m3.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m5.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m6.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a55m7.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a55m7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m2.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m3.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m5.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m6.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Content_a74m7.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Content_a74m7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/CourseResponses.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/CourseResponses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Module_a14.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Module_a14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Module_a47.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Module_a47.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Module_a51.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Module_a51.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Module_a55.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Module_a55.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Module_a74.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Module_a74.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/ContentEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ContentEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/CourseEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/CourseEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/ModuleEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ModuleEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/AcademyDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/AcademyRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/RemoteDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/RemoteDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ContentResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ContentResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/CourseResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/CourseResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ModuleResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ModuleResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/di/Injection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/di/Injection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragmentCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragmentCallback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/CourseReaderViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/SectionsPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/SectionsPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderCallback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/JsonHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/JsonHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/viewmodel/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/viewmodel/ViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bookmark_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bookmark_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bookmarked_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bookmarked_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image_black.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle_black.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh_black.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share_blue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_course_reader.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_course_reader.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_course.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_course.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_detail_course.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_detail_course.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_academy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_academy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookmark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_academy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_academy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_bookmark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_module_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_module_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_module_list_custom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_module_list_custom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/FakeAcademyRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/FakeAcademyRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/bookmark/BookmarkViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/bookmark/BookmarkViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_30]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_4_API_30]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -48,13 +236,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1pDdZWlcbwggXjNEX5iIl9tnZDj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -62,12 +250,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JetpackPro/LatihanViewModel/kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.iman.academy.data" />
+      <recent name="com.iman.academy.data.source.local.entity" />
+      <recent name="com.iman.academy.ui.reader" />
+      <recent name="com.iman.academy.ui.detail" />
+      <recent name="com.iman.academy.ui.home" />
+    </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.iman.academy.ui.bookmark" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.iman.academy.utils" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.iman.academy.ui.reader.list" />
@@ -78,19 +278,52 @@
     <key name="android.template.44585217">
       <recent name="com.iman.academy" />
     </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.iman.academy.ui.reader" />
-      <recent name="com.iman.academy.ui.detail" />
-      <recent name="com.iman.academy.ui.home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Kursus Dicoding\Academy\app\src\main\res\layout" />
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\res\layout" />
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\java\com\iman\academy" />
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\assets" />
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\java\com\iman" />
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\res" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="AcademyRepositoryTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iman.academy.data.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iman.academy.data.source" />
+      <option name="MAIN_CLASS_NAME" value="com.iman.academy.data.source.AcademyRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com in Academy.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ui in Academy.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -152,6 +385,117 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests in 'com'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'com.iman.academy.ui.home'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Academy.app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.iman.academy.ui.home" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.Tests in 'com'" />
+        <item itemvalue="Android JUnit.com in Academy.app" />
+        <item itemvalue="Android Instrumented Tests.Tests in 'com.iman.academy.ui.home'" />
+        <item itemvalue="Android JUnit.ui in Academy.app" />
+        <item itemvalue="Android JUnit.AcademyRepositoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,6 +510,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rebuild/update" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild/update" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="217" y="316" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1614723427013">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -179,29 +527,57 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="217" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614733667194" />
-    <state x="266" y="331" width="549" height="418" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614723428351">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="266" y="319" width="461" height="418" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1616661611314">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="266" y="319" width="461" height="418" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616661611314" />
     <state x="266" y="331" width="549" height="418" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614723428351" />
+    <state x="677" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1616663104356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616663104356" />
+    <state x="100" y="100" width="1720" height="840" key="AVDManager" timestamp="1616659173418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1720" height="840" key="AVDManager/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616659173418" />
     <state x="67" y="294" key="AndroidCreateResourceFileDialog" timestamp="1614726423023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="67" y="294" key="AndroidCreateResourceFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614726423023" />
-    <state x="62" y="117" key="CommitChangelistDialog2" timestamp="1614732858336">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="62" y="113" key="CommitChangelistDialog2" timestamp="1616664501854">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="62" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664501854" />
     <state x="62" y="117" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614732858336" />
-    <state x="267" y="294" key="FileChooserDialogImpl" timestamp="1614731019977">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="267" y="283" key="FileChooserDialogImpl" timestamp="1616661847216">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="267" y="283" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616661847216" />
     <state x="267" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1614731019977" />
+    <state width="1860" height="278" key="GridCell.Tab.0.bottom" timestamp="1616664725236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664725236" />
+    <state width="1860" height="278" key="GridCell.Tab.0.center" timestamp="1616664725236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664725236" />
+    <state width="1860" height="278" key="GridCell.Tab.0.left" timestamp="1616664725236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664725236" />
+    <state width="1860" height="278" key="GridCell.Tab.0.right" timestamp="1616664725236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664725236" />
     <state x="72" y="273" key="Vcs.Push.Dialog.v2" timestamp="1614732694946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="72" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614732694946" />
-    <state x="289" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614732651220">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="289" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616658548416">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="289" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616658548416" />
     <state x="289" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614732651220" />
   </component>
 </project>

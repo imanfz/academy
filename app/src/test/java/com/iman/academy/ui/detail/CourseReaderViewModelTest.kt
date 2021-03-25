@@ -3,9 +3,10 @@ package com.iman.academy.ui.detail
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.iman.academy.data.ContentEntity
-import com.iman.academy.data.ModuleEntity
-import com.iman.academy.data.source.AcademyRepository
+import com.iman.academy.data.source.local.entity.ContentEntity
+import com.iman.academy.data.source.local.entity.ModuleEntity
+import com.iman.academy.data.AcademyRepository
+import com.iman.academy.ui.reader.CourseReaderViewModel
 import com.iman.academy.utils.DataDummy
 import org.junit.Test
 

@@ -7,9 +7,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.iman.academy.R
-import com.iman.academy.data.CourseEntity
+import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.databinding.ItemsAcademyBinding
 import com.iman.academy.ui.detail.DetailCourseActivity
+import java.util.*
 
 class AcademyAdapter : RecyclerView.Adapter<AcademyAdapter.CourseViewHolder>() {
     private var listCourses = ArrayList<CourseEntity>()
@@ -44,11 +45,10 @@ class AcademyAdapter : RecyclerView.Adapter<AcademyAdapter.CourseViewHolder>() {
                     itemView.context.startActivity(intent)
                 }
                 Glide.with(itemView.context)
-                    .load(course.imagePath)
-                    .apply(
-                        RequestOptions.placeholderOf(R.drawable.ic_loading)
-                        .error(R.drawable.ic_error))
-                    .into(imgPoster)
+                        .load(course.imagePath)
+                        .apply(RequestOptions.placeholderOf(R.drawable.ic_loading)
+                                .error(R.drawable.ic_error))
+                        .into(imgPoster)
             }
         }
     }
