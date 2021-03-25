@@ -12,18 +12,16 @@ import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.databinding.FragmentBookmarkBinding
 import com.iman.academy.viewmodel.ViewModelFactory
 
-/**
- * A simple [Fragment] subclass.
- */
 class BookmarkFragment : Fragment(), BookmarkFragmentCallback {
 
-    lateinit var fragmentBookmarkBinding: FragmentBookmarkBinding
+    private var _fragmentBookmarkBinding: FragmentBookmarkBinding? = null
+    private val binding get() = _fragmentBookmarkBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View {
+                              savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        fragmentBookmarkBinding = FragmentBookmarkBinding.inflate(inflater, container, false)
-        return fragmentBookmarkBinding.root
+        _fragmentBookmarkBinding = FragmentBookmarkBinding.inflate(inflater, container, false)
+        return binding?.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -34,18 +32,16 @@ class BookmarkFragment : Fragment(), BookmarkFragmentCallback {
 
             val adapter = BookmarkAdapter(this)
 
-            fragmentBookmarkBinding.progressBar.visibility = View.VISIBLE
+            binding?.progressBar?.visibility = View.VISIBLE
             viewModel.getBookmarks().observe(viewLifecycleOwner, { courses ->
-                fragmentBookmarkBinding.progressBar.visibility = View.GONE
+                binding?.progressBar?.visibility = View.GONE
                 adapter.setCourses(courses)
                 adapter.notifyDataSetChanged()
             })
 
-            with(fragmentBookmarkBinding.rvBookmark) {
-                layoutManager = LinearLayoutManager(context)
-                setHasFixedSize(true)
-                this.adapter = adapter
-            }
+            binding?.rvBookmark?.layoutManager = LinearLayoutManager(context)
+            binding?.rvBookmark?.setHasFixedSize(true)
+            binding?.rvBookmark?.adapter = adapter
         }
     }
 

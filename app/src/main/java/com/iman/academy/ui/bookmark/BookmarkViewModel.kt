@@ -6,6 +6,8 @@ import com.iman.academy.data.AcademyRepository
 import com.iman.academy.data.source.local.entity.CourseEntity
 
 class BookmarkViewModel(private val academyRepository: AcademyRepository) : ViewModel() {
-    fun getBookmarks(): LiveData<List<CourseEntity>> = academyRepository.getBookmarkedCourses()
+    fun getBookmarks(): LiveData<List<CourseEntity>> {
+        return academyRepository.getBookmarkedCourses()
+    }
 }
 
