@@ -1,6 +1,7 @@
 package com.iman.academy.data.source.local.room
 
 import androidx.lifecycle.LiveData
+import androidx.paging.DataSource
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -15,11 +16,16 @@ import com.iman.academy.data.source.local.entity.ModuleEntity
 @Dao
 interface AcademyDao {
 
-    @Query("SELECT * FROM courseentities")
+    /*@Query("SELECT * FROM courseentities")
     fun getCourses(): LiveData<List<CourseEntity>>
 
     @Query("SELECT * FROM courseentities where bookmarked = 1")
-    fun getBookmarkedCourse(): LiveData<List<CourseEntity>>
+    fun getBookmarkedCourse(): LiveData<List<CourseEntity>>*/
+    @Query("SELECT * FROM courseentities")
+    fun getCourses(): DataSource.Factory<Int, CourseEntity>
+
+    @Query("SELECT * FROM courseentities where bookmarked = 1")
+    fun getBookmarkedCourse(): DataSource.Factory<Int, CourseEntity>
 
     @Transaction
     @Query("SELECT * FROM courseentities WHERE courseId = :courseId")

@@ -71,4 +71,7 @@ dependencies {
     //architecture component
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$archLifecycleVersion"
 
+    //pagination
+    implementation "androidx.paging:paging-runtime:$pagingVersion"
+
 }
