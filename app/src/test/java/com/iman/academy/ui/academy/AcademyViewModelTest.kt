@@ -3,14 +3,14 @@ package com.iman.academy.ui.academy
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.data.AcademyRepository
+import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.utils.DataDummy
-import org.junit.Test
-
+import com.iman.academy.vo.Resource
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Rule
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
 import org.mockito.Mockito.`when`
@@ -70,7 +70,9 @@ class AcademyViewModelTest {
     private lateinit var academyRepository: AcademyRepository
 
     @Mock
-    private lateinit var observer: Observer<List<CourseEntity>>
+    //private lateinit var observer: Observer<List<CourseEntity>>
+    //pakai room
+    private lateinit var observer: Observer<Resource<List<CourseEntity>>>
 
     @Before
     fun setUp() {
@@ -79,12 +81,16 @@ class AcademyViewModelTest {
 
     @Test
     fun getCourses() {
-        val dummyCourses = DataDummy.generateDummyCourses()
-        val courses = MutableLiveData<List<CourseEntity>>()
+        //val dummyCourses = DataDummy.generateDummyCourses()
+        //val courses = MutableLiveData<List<CourseEntity>>()
+        //pakai room
+        val dummyCourses = Resource.success(DataDummy.generateDummyCourses())
+        val courses = MutableLiveData<Resource<List<CourseEntity>>>()
         courses.value = dummyCourses
 
         `when`(academyRepository.getAllCourses()).thenReturn(courses)
-        val courseEntities = viewModel.getCourses().value
+        //val courseEntities = viewModel.getCourses().value
+        val courseEntities = viewModel.getCourses().value?.data
         verify(academyRepository).getAllCourses()
         assertNotNull(courseEntities)
         assertEquals(5, courseEntities?.size)

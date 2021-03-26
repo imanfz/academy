@@ -3,20 +3,18 @@ package com.iman.academy.ui.detail
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
+import com.iman.academy.data.AcademyRepository
 import com.iman.academy.data.source.local.entity.ContentEntity
 import com.iman.academy.data.source.local.entity.ModuleEntity
-import com.iman.academy.data.AcademyRepository
 import com.iman.academy.ui.reader.CourseReaderViewModel
 import com.iman.academy.utils.DataDummy
-import org.junit.Test
-
-import org.junit.Assert.*
+import com.iman.academy.vo.Resource
 import org.junit.Before
 import org.junit.Rule
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
-import org.mockito.Mockito.`when`
-import org.mockito.Mockito.verify
+import org.mockito.Mockito.*
 import org.mockito.junit.MockitoJUnitRunner
 
 /*
@@ -120,16 +118,22 @@ class CourseReaderViewModelTest {
     @Mock
     private lateinit var academyRepository: AcademyRepository
 
-    @Mock
+   /* @Mock
     private lateinit var modulesObserver: Observer<List<ModuleEntity>>
 
     @Mock
-    private lateinit var moduleObserver: Observer<ModuleEntity>
+    private lateinit var moduleObserver: Observer<ModuleEntity>*/
+
+    @Mock
+    private lateinit var modulesObserver: Observer<Resource<List<ModuleEntity>>>
+
+    @Mock
+    private lateinit var moduleObserver: Observer<Resource<ModuleEntity>>
 
     @Before
     fun setUp() {
         viewModel = CourseReaderViewModel(academyRepository)
-        viewModel.setSelectedCourse(courseId)
+        viewModel.setCourseId(courseId)
         viewModel.setSelectedModule(moduleId)
 
         val dummyModule = dummyModules[0]
@@ -137,6 +141,30 @@ class CourseReaderViewModelTest {
     }
 
     @Test
+    fun getModules() {
+        val modules = MutableLiveData<Resource<List<ModuleEntity>>>()
+        val resource = Resource.success(dummyModules) as Resource<List<ModuleEntity>>
+        modules.value = resource
+        `when`(academyRepository.getAllModulesByCourse(courseId)).thenReturn(modules)
+
+        val observer = mock(Observer::class.java) as Observer<Resource<List<ModuleEntity>>>
+        viewModel.modules.observeForever(observer)
+        verify(observer).onChanged(resource)
+    }
+
+    @Test
+    fun getSelectedModule() {
+        val module = MutableLiveData<Resource<ModuleEntity>>()
+        val resource = Resource.success(dummyModules[0])
+        module.value = resource
+        `when`(academyRepository.getContent(moduleId)).thenReturn(module)
+
+        val observer = mock(Observer::class.java) as Observer<Resource<ModuleEntity>>
+        viewModel.selectedModule.observeForever(observer)
+        verify(observer).onChanged(resource)
+    }
+
+    /*@Test
     fun getModules() {
         val modules = MutableLiveData<List<ModuleEntity>>()
         modules.value = dummyModules
@@ -169,5 +197,5 @@ class CourseReaderViewModelTest {
         viewModel.getSelectedModule().observeForever(moduleObserver)
         verify(moduleObserver).onChanged(dummyModules[0])
 
-    }
+    }*/
 }

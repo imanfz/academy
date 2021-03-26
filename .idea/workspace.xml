@@ -7,61 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe5a976-2d90-4508-a62b-785ff1639cca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/NetworkBoundResource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/LocalDataSource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/CourseWithModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/room/AcademyDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/room/AcademyDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/ApiResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/StatusResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/AppExecutors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/MyButton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/vo/Resource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/vo/Status.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/LiveDataTestUtil.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Academy.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/AcademyRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ContentEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ContentEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/CourseEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/CourseEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ModuleEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/local/entity/ModuleEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/RemoteDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/RemoteDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ContentResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/data/source/remote/response/ContentResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/di/Injection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/di/Injection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/academy/AcademyViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/bookmark/BookmarkViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/detail/DetailCourseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/SectionsPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/home/SectionsPagerAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/CourseReaderViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/content/ModuleContentFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/ui/reader/list/ModuleListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/LiveDataTestUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/viewmodel/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/viewmodel/ViewModelFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_module_content.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils/DataDummy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/AcademyRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/AcademyRepositoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/FakeAcademyRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/data/source/FakeAcademyRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/academy/AcademyViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/CourseReaderViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/iman/academy/ui/detail/DetailCourseViewModelTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +76,7 @@
     <property name="android-custom-viewC:/Users/Administrator/Documents/academy/app/src/main/java/com/iman/academy/utils/MyButton.kt_SELECTED" value="MyButton" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="D:/09. Room/kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/iman/academy/utils" />
     <property name="multi-representation-previewC:/Users/Administrator/Documents/academy/app/src/main/java/com/iman/academy/utils/MyButton.kt_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -153,14 +112,14 @@
       <recent name="com.iman.academy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\java\com\iman\academy\utils" />
       <recent name="C:\Users\Administrator\Documents\academy\app\src\main\res\layout" />
       <recent name="C:\Users\Administrator\Documents\academy\app\src\main\java\com\iman\academy" />
       <recent name="C:\Users\Administrator\Documents\academy\app\src\main\assets" />
       <recent name="C:\Users\Administrator\Documents\academy\app\src\main\java\com\iman" />
-      <recent name="C:\Users\Administrator\Documents\academy\app\src\main\res" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit.com in Academy.app">
     <configuration name="AcademyRepositoryTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academy.app" />
       <extension name="coverage">
@@ -363,8 +322,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android Instrumented Tests.Tests in 'com'" />
         <item itemvalue="Android JUnit.com in Academy.app" />
+        <item itemvalue="Android Instrumented Tests.Tests in 'com'" />
         <item itemvalue="Android Instrumented Tests.Tests in 'com.iman.academy.ui.home'" />
         <item itemvalue="Android JUnit.ui in Academy.app" />
         <item itemvalue="Android JUnit.AcademyRepositoryTest" />
@@ -389,12 +348,20 @@
       <option name="project" value="LOCAL" />
       <updated>1616664917828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="simpan data dalam room">
+      <created>1616677163417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616677163418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rebuild/update" />
-    <option name="LAST_COMMIT_MESSAGE" value="rebuild/update" />
+    <MESSAGE value="simpan data dalam room" />
+    <option name="LAST_COMMIT_MESSAGE" value="simpan data dalam room" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="266" key="#PSD" timestamp="1616665386363">
@@ -435,15 +402,15 @@
     </state>
     <state x="67" y="283" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616668129639" />
     <state x="67" y="294" key="AndroidCreateResourceFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614726423023" />
-    <state x="62" y="113" key="CommitChangelistDialog2" timestamp="1616664903289">
+    <state x="62" y="113" key="CommitChangelistDialog2" timestamp="1616677151068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="62" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616664903289" />
+    <state x="62" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616677151068" />
     <state x="62" y="117" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1614732858336" />
-    <state x="267" y="283" key="FileChooserDialogImpl" timestamp="1616675316885">
+    <state x="267" y="283" key="FileChooserDialogImpl" timestamp="1616729275230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="267" y="283" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616675316885" />
+    <state x="267" y="283" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616729275230" />
     <state x="267" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1614731019977" />
     <state width="1860" height="278" key="GridCell.Tab.0.bottom" timestamp="1616676380252">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -461,10 +428,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616676380252" />
-    <state x="72" y="263" key="Vcs.Push.Dialog.v2" timestamp="1616665064183">
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2" timestamp="1616677311847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616665064183" />
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1616677311847" />
     <state x="72" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614732694946" />
     <state x="289" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616658548416">
       <screen x="0" y="0" width="1920" height="1040" />

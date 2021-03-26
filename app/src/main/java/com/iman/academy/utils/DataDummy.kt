@@ -1,6 +1,8 @@
 package com.iman.academy.utils
 
+import com.iman.academy.data.source.local.entity.ContentEntity
 import com.iman.academy.data.source.local.entity.CourseEntity
+import com.iman.academy.data.source.local.entity.CourseWithModule
 import com.iman.academy.data.source.local.entity.ModuleEntity
 import com.iman.academy.data.source.remote.response.ContentResponse
 import com.iman.academy.data.source.remote.response.CourseResponse
@@ -10,7 +12,7 @@ import java.util.ArrayList
 
 object DataDummy {
 
-    fun generateDummyCourses(): ArrayList<CourseEntity> {
+    fun generateDummyCourses(): List<CourseEntity> {
 
         val courses = ArrayList<CourseEntity>()
 
@@ -47,7 +49,7 @@ object DataDummy {
         return courses
     }
 
-    fun generateDummyModules(courseId: String): ArrayList<ModuleEntity> {
+    fun generateDummyModules(courseId: String): List<ModuleEntity> {
 
         val modules = ArrayList<ModuleEntity>()
 
@@ -86,7 +88,7 @@ object DataDummy {
         return modules
     }
 
-    fun generateRemoteDummyCourses(): ArrayList<CourseResponse> {
+    fun generateRemoteDummyCourses(): List<CourseResponse> {
 
         val courses = ArrayList<CourseResponse>()
 
@@ -118,7 +120,7 @@ object DataDummy {
         return courses
     }
 
-    fun generateRemoteDummyModules(courseId: String): ArrayList<ModuleResponse> {
+    fun generateRemoteDummyModules(courseId: String): List<ModuleResponse> {
 
         val modules = ArrayList<ModuleResponse>()
 
@@ -159,5 +161,19 @@ object DataDummy {
 
     fun generateRemoteDummyContent(moduleId: String): ContentResponse {
         return ContentResponse(moduleId, "This is a dummy content")
+    }
+
+    fun generateDummyCourseWithModules(course: CourseEntity, bookmarked: Boolean): CourseWithModule {
+        course.bookmarked = bookmarked
+        return CourseWithModule(course, generateDummyModules(course.courseId))
+    }
+
+    fun generateDummyContent(moduleId: String): ContentEntity =
+            ContentEntity("This is a dummy content")
+
+    fun generateDummyModuleWithContent(courseId: String): ModuleEntity {
+        val moduleEntity = generateDummyModules(courseId)[0]
+        moduleEntity.contentEntity = generateDummyContent(moduleEntity.moduleId)
+        return moduleEntity
     }
 }
