@@ -3,6 +3,7 @@ package com.iman.academy.ui.academy
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
+import androidx.paging.PagedList
 import com.iman.academy.data.AcademyRepository
 import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.utils.DataDummy
@@ -72,14 +73,19 @@ class AcademyViewModelTest {
     @Mock
     //private lateinit var observer: Observer<List<CourseEntity>>
     //pakai room
-    private lateinit var observer: Observer<Resource<List<CourseEntity>>>
+//    private lateinit var observer: Observer<Resource<List<CourseEntity>>>
+    //paginatoin
+    private lateinit var observer: Observer<Resource<PagedList<CourseEntity>>>
+
+    @Mock
+    private lateinit var pagedList: PagedList<CourseEntity>
 
     @Before
     fun setUp() {
         viewModel = AcademyViewModel(academyRepository)
     }
 
-    @Test
+    /*@Test
     fun getCourses() {
         //val dummyCourses = DataDummy.generateDummyCourses()
         //val courses = MutableLiveData<List<CourseEntity>>()
@@ -90,6 +96,23 @@ class AcademyViewModelTest {
 
         `when`(academyRepository.getAllCourses()).thenReturn(courses)
         //val courseEntities = viewModel.getCourses().value
+        val courseEntities = viewModel.getCourses().value?.data
+        verify(academyRepository).getAllCourses()
+        assertNotNull(courseEntities)
+        assertEquals(5, courseEntities?.size)
+
+        viewModel.getCourses().observeForever(observer)
+        verify(observer).onChanged(dummyCourses)
+    }*/
+
+    @Test
+    fun getCourses() {
+        val dummyCourses = Resource.success(pagedList)
+        `when`(dummyCourses.data?.size).thenReturn(5)
+        val courses = MutableLiveData<Resource<PagedList<CourseEntity>>>()
+        courses.value = dummyCourses
+
+        `when`(academyRepository.getAllCourses()).thenReturn(courses)
         val courseEntities = viewModel.getCourses().value?.data
         verify(academyRepository).getAllCourses()
         assertNotNull(courseEntities)

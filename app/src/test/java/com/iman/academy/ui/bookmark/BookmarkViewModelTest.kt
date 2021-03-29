@@ -3,6 +3,7 @@ package com.iman.academy.ui.bookmark
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
+import androidx.paging.PagedList
 import com.iman.academy.data.source.local.entity.CourseEntity
 import com.iman.academy.data.AcademyRepository
 import com.iman.academy.utils.DataDummy
@@ -71,14 +72,18 @@ class BookmarkViewModelTest {
     private lateinit var academyRepository: AcademyRepository
 
     @Mock
-    private lateinit var observer: Observer<List<CourseEntity>>
+//    private lateinit var observer: Observer<List<CourseEntity>>
+    private lateinit var observer: Observer<PagedList<CourseEntity>>
+
+    @Mock
+    private lateinit var pagedList: PagedList<CourseEntity>
 
     @Before
     fun setUp() {
         viewModel = BookmarkViewModel(academyRepository)
     }
 
-    @Test
+    /*@Test
     fun getBookmark() {
         val dummyCourses = DataDummy.generateDummyCourses()
         val courses = MutableLiveData<List<CourseEntity>>()
@@ -87,6 +92,23 @@ class BookmarkViewModelTest {
         `when`(academyRepository.getBookmarkedCourses()).thenReturn(courses)
         val courseEntities = viewModel.getBookmarks().value
         verify(academyRepository).getBookmarkedCourses()
+        assertNotNull(courseEntities)
+        assertEquals(5, courseEntities?.size)
+
+        viewModel.getBookmarks().observeForever(observer)
+        verify(observer).onChanged(dummyCourses)
+    }*/
+
+    @Test
+    fun getBookmark() {
+        val dummyCourses = pagedList
+        `when`(dummyCourses.size).thenReturn(5)
+        val courses = MutableLiveData<PagedList<CourseEntity>>()
+        courses.value = dummyCourses
+
+        `when`(academyRepository.getBookmarkedCourses()).thenReturn(courses)
+        val courseEntities = viewModel.getBookmarks().value
+        verify<AcademyRepository>(academyRepository).getBookmarkedCourses()
         assertNotNull(courseEntities)
         assertEquals(5, courseEntities?.size)
 
